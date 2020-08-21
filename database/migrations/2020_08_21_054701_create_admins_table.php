@@ -27,8 +27,8 @@ class CreateAdminsTable extends Migration
             $table->string('email',100);
             $table->string('password',255);
             $table->string('remember_token',100)->nullable();
-            $table->tinyint('payment',1)->nullable();
-            $table->smallint('amount',6)->default(0);
+            $table->tinyInteger('payment',1)->nullable();
+            $table->smallInteger('amount',6)->default(0);
             $table->Date('payment_date')->nullable();
             $table->Date('validity')->nullable();
             $table->text('payment_request_id')->nullable();

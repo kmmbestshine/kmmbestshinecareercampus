@@ -20,7 +20,7 @@ class CreateExamTable extends Migration
                 $table->TEXT('publish')->nullable();
                 $table->string('tname',100);
                 $table->text('category');
-                $table->tinyint('random',1)->default(1);
+                $table->tinyInteger('random',1)->default(1);
                 $table->string('examtime',255);
                 $table->string('admin_id',100);
                 $table->string('admin_email',100);

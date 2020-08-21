@@ -17,7 +17,7 @@ class CreateUsersTable extends Migration
             $table->increments('id');
             $table->string('student_id',100);
             $table->string('name',255);
-            $table->bigint('contact',10)->nullable();
+            $table->bigInteger('contact',10)->nullable();
             $table->text('category')->nullable();
             $table->string('admin_id',100)->nullable();
             $table->string('admin_email',100)->nullable();
