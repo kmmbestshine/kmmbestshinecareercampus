@@ -18,7 +18,7 @@ class CreateAdminsTable extends Migration
             $table->string('name',255);
             $table->text('login_msg')->nullable();
             $table->text('Question_Bank_DB')->nullable();
-            $table->longblob('image')->nullable();
+            $table->text('image')->nullable();
             $table->string('balance',255)->nullable();
             $table->int('student_fee',4)->nullable();
             $table->string('total_number_of_student',255)->nullable();
