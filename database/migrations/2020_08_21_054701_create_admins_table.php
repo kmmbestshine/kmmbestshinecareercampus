@@ -20,7 +20,7 @@ class CreateAdminsTable extends Migration
             $table->text('Question_Bank_DB')->nullable();
             $table->text('image')->nullable();
             $table->string('balance',255)->nullable();
-            $table->int('student_fee',4)->nullable();
+            $table->integer('student_fee',4)->nullable();
             $table->string('total_number_of_student',255)->nullable();
             $table->string('total_number_of_exam',255)->nullable();
             $table->string('institution_name',255)->nullable();
@@ -32,8 +32,8 @@ class CreateAdminsTable extends Migration
             $table->Date('payment_date')->nullable();
             $table->Date('validity')->nullable();
             $table->text('payment_request_id')->nullable();
-            $table->int('student_limit',11)->default(15);
-            $table->int('exam_limit',11);
+            $table->integer('student_limit',11)->default(15);
+            $table->integer('exam_limit',11);
             $table->timestamps()->nullable();
             
         });
