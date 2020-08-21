@@ -24,7 +24,7 @@ class CreateExamTable extends Migration
                 $table->string('examtime',255);
                 $table->string('admin_id',100);
                 $table->string('admin_email',100);
-                $table->timestamps()->nullable();
+                $table->nullableTimestamps();
 
         });
     }

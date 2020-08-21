@@ -39,7 +39,7 @@ class CreateExamQuestionTable extends Migration
             $table->TEXT('level')->nullable();
             $table->TEXT('solution')->nullable();
             $table->rememberToken()->nullable();
-            $table->timestamps()->nullable();
+            $table->nullableTimestamps();
         });
     }
 

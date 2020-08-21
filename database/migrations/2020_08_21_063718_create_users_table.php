@@ -26,7 +26,7 @@ class CreateUsersTable extends Migration
             $table->Date('validity')->nullable();
             $table->string('password',255);
             $table->string('remember_token',100)->nullable();
-            $table->timestamps()->nullable();
+            $table->nullableTimestamps();
 
         });
     }

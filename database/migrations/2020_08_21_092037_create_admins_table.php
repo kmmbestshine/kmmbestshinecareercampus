@@ -34,8 +34,7 @@ class CreateAdminsTable extends Migration
             $table->text('payment_request_id')->nullable();
             $table->integer('student_limit',11)->default(15);
             $table->integer('exam_limit',11);
-            $table->timestamps()->nullable();
-            
+            $table->nullableTimestamps();
         });
     }
 

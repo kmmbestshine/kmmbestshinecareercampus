@@ -19,7 +19,7 @@ class CreateExamSubjectTable extends Migration
                   $table->string('subject',100);
                   $table->string('admin_id',100);
                   $table->string('admin_email',100);
-                  $table->timestamps()->nullable();
+                  $table->nullableTimestamps();
         });
     }
 
