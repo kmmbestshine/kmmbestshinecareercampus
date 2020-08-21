@@ -192,7 +192,7 @@
     </section>
 
     <section class="p-0" id="portfolio">
-     <!-- <div class="container-fluid p-0">
+      <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="landing/img/portfolio/fullsize/1.jpg">
@@ -285,7 +285,7 @@
             </a>
           </div>
         </div>
-      </div> -->
+      </div> 
     </section> 
 
     <section class="bg-dark text-white">
@@ -307,12 +307,12 @@
         <div class="row">
           <div class="col-lg-4 ml-auto text-center">
             <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-            <p>7905510609</p>
+            <p>9003152804</p>
           </div>
           <div class="col-lg-4 mr-auto text-center">
             <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
             <p>
-              <a href="mailto:contact@allexamcorner.org">contact@allexamcorner.org</a>
+              <a href="mailto:contact@allexamcorner.org">info@bestshineeduapp.com</a>
             </p>
           </div>
         </div>
